@@ -36,12 +36,16 @@ npm install
 ## Running the Script:
 > Start the script by running the following command:
 ```bash
-npm start
+npm run start
+```
+> Stop the script by running the following command:
+```bash
+npm run stop
 ```
 
 ## Automation:
 > Schedule the script to run at regular intervals by adding it to your server's cron jobs or using a task scheduler.
-For detailed usage instructions, see **[How to Use](#how-to-use)** in the documentation.
+For detailed usage instructions, see **[How to Use](#usage)** in the documentation.
 
 ### Contributing
 > Contributions are welcome! If you would like to contribute to this project, please open an issue or submit a pull request.
@@ -53,8 +57,8 @@ For detailed usage instructions, see **[How to Use](#how-to-use)** in the docume
 **[DeXoHigh](https://github.com/DeXoHigh)**
 
 ### Acknowledgments
-> Special thanks to List of IP Addresses for providing IP blacklists.
-[LittleJake](https://github.com/LittleJake)
+> Special thanks to List of IP Addresses for providing IP blacklists.<br />
+[LittleJake](https://github.com/LittleJake) <br />
 [borestad](https://github.com/borestad)
 
 ### Support
