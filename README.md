@@ -19,7 +19,7 @@ DeXo Bad IP Blacklist is a Node.js script designed to automatically download and
 2. Download the DeXo Bad IP Blacklist script with this command:
 
 ```bash
-git clone git@github.com:DeXoHigh/dexo-ipblacklist.git
+git clone https://github.com/DeXoHigh/dexo-ipblacklist.git
 ```
 
 3. Install the required Node.js packages by running the following command:
