@@ -1,0 +1,43 @@
+{
+  "name": "dexo-ipblacklist",
+  "version": "1.0.0",
+  "description": "DeXo IP Blocker is a Node.js script designed to automatically download and process IP blacklists from various sources and block the listed IPs using iptables. This script helps enhance the security of your server by preventing incoming and outgoing connections from known malicious IPs.",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "pm2 start app.js --name dexo-ipblacklist",
+    "stop": "pm2 stop dexo-ipblacklist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeXoHigh/dexo-ipblacklist.git"
+  },
+  "keywords": [
+    "nodejs",
+    "abuseip",
+    "block",
+    "bad",
+    "ip",
+    "whitelist",
+    "iptables",
+    "blacklist",
+    "security",
+    "firewall",
+    "blocklist",
+    "blocker"
+  ],
+  "author": "DeXoHigh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeXoHigh/dexo-ipblacklist/issues"
+  },
+  "homepage": "https://github.com/DeXoHigh/dexo-ipblacklist#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "pm2": "^5.3.0",
+    "util": "^0.12.5"
+  }
+}
