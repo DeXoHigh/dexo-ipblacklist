@@ -25,7 +25,7 @@ git clone https://github.com/DeXoHigh/dexo-ipblacklist.git
 3. Install the required Node.js packages by running the following command:
 
 ```bash
-npm install
+cd dexo-ipblacklist/ && npm i
 ```
 
 ## Usage
